@@ -85,6 +85,7 @@ class GameOfLife:
         ani = animation.FuncAnimation(fig, animate, frames=num_steps, interval=1000)
         plt.show()
 
+# WRAP this in a function
 
 # Prompt the user for the desired options
 width = int(input("Enter the width of the grid: "))
